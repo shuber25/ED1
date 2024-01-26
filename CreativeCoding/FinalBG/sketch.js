@@ -3,12 +3,12 @@
 let gif;
 
 	function preload () {
-	gif = loadImage ('Assets/GIF_Huber.gif' );
+	gif = loadImage ('Assets/GIF_Huber.gif');
 	}
 
 function setup() {
   //runs one time
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(windowWidth, windowHeight);
   fill('lightgrey');
   stroke ('white');
   strokeweight (1);
@@ -19,7 +19,7 @@ function draw() {
   
   background ('light blue');
   
-var num = 8;
+var num = 8
   var sideLen = windowWidth
   
   var sidelen = windowWidth/num;
