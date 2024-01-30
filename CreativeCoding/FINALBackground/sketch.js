@@ -30,6 +30,6 @@ var num = 8
   }
 }
 
-function windowResizd (){
+function windowResized (){
   resizeCanvas (windowWidth, windowHeight);
 }
