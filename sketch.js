@@ -9,6 +9,9 @@ let gif;
 function setup() {
   //runs one time
   createCanvas(windowWidth,windowHeight);
+  fill('white');
+  strokeweight(1);
+  
 }
 
 function draw() {
@@ -16,16 +19,16 @@ function draw() {
   
   background ('light blue');
   
-var num = 50;
+var num = 8;
   var sideLen = windowWidth/num;
   
-  for(var y = 0; y < windowHeight; y = y + sideLen){ //Loop to create rows in the y direction
-     for(var x = 0; x < windowWidth; x = x + sideLen) { //loop to create a row of squares in the x direction
+  for(var y = 0; y < 2 * windowHeight; y = y + sideLen){ //Loop to create rows in the y direction
+     for(var x = 0; x < 2* windowWidth; x = x + sideLen) { //loop to create a row of squares in the x direction
     image (gif, x, y, sideLen, sideLen);
     }
   }
 }
 
-function windowResizd (){
-  resizeCanvas (windowWidth, windowHeight)
+function windowResized (){
+  resizeCanvas (windowWidth, windowHeight);
 }
