@@ -20,7 +20,9 @@ function draw() {
   background ('light blue');
   
 var num = 8;
+   var sideLen = windowWidth
   var sideLen = windowWidth/num;
+  
   
   for(var y = 0; y < 2 * windowHeight; y = y + sideLen){ //Loop to create rows in the y direction
      for(var x = 0; x < 2* windowWidth; x = x + sideLen) { //loop to create a row of squares in the x direction
