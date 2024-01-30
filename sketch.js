@@ -16,9 +16,8 @@ function setup() {
 function draw() {
   //runs in a loop
 
-  background ('red');
 
-  var num = 50;
+  var num = 8;
   var sideLen = windowWidth/num;
 
   for (var y = 0; y < 2 * windowHeight; y = y + sideLen) {
