@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  height 100%;
+  overflow: hidden; 
   font-family:'Roboto', sans-serif;
   background-color: rgb(255, 255, 255);
 }
@@ -47,12 +49,7 @@ td {
     padding-top:10px;
     text-align:center;
 
-    &:after, &:before {
-        content: '';
-
-        display: block;
-        padding-bottom: calc(50% - 0.5em);
-    }
+  
 }
 
 .container{
